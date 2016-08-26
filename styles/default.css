@@ -1,0 +1,993 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700);
+
+body{
+	
+	background-color: #DFF8A9; 
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	
+}
+
+
+
+
+.mainHeader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0; 
+	width: 100%; 
+	background-color: #e67e22;
+	height: 3em;
+	z-index: 2000; 
+}
+
+#logo{
+	display: inline-block;
+}
+
+#boldLogo{
+	font-weight: bolder; 
+	background-color: white;
+	color: #e67e22; 
+}
+
+.mainHeader h1{
+		font-size: 2em;
+}
+
+.mainHeader h1 a{
+	color: white; 
+	line-height: 1.5em; 
+}
+
+.mainHeader nav {
+display: inline-block;
+float: right; 
+ 
+	background-color: #e67e22;
+}
+
+
+
+#hamburgerMenu{
+		display: none; 
+	background-color: #e67e22;
+
+	}
+
+#hamburgerMenu img{
+	height: 3em;
+}
+
+
+
+
+
+.mainHeader nav ul{	 
+	list-style: none; 
+	height: 3em; 
+	margin: 0; 
+}
+
+.mainHeader nav ul li{
+	float: left; 
+ 	display: inline;
+	height: 3em; 
+ 	
+}
+
+.dropdown{
+	vertical-align: middle;
+}
+
+li.dropdown{
+	display: inline-block;
+}
+
+.link, .dropdownBtn{
+	display: block; 
+	padding: 15px 10px;
+	color: white;
+}
+
+.dropdownBtn{
+	background-color: #e67e22;
+}
+
+#smallerDropdown{
+	font-size: 15px;
+	padding: 5px; 
+	vertical-align: middle; 
+}
+
+.dropdownContent{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px; 
+}
+
+.dropdownContent a{
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block; 
+	
+	color: #267300; 
+}
+
+#manage{
+	text-align: center;
+}
+
+.dropdownContent p{
+	color: black; 
+	padding: 12px 16px;
+	display: block; 
+	color: #153403;
+}
+
+.dropdownContent h2{
+	color: black; 
+	padding: 12px 16px;
+	font-weight: bold;	
+	font-size: 1.2em;
+	color: #153403;
+}
+
+.dropdownContent a:hover{
+		background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdownContent{
+	display: block; 
+}
+
+.dropdownContent2{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px; 
+}
+
+.dropdownContent2 p{
+	color: black; 
+	padding: 12px 16px;
+	display: block; 
+	color: #3b5998;
+}
+
+.dropdownContent2 h2{
+	color: black; 
+	padding: 12px 16px;
+	font-weight: bold;	
+	font-size: 1.2em;
+	color: #3b5998;
+}
+
+.dropdownContent2 a{
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block; 
+	
+	color: #8b9dc3; 
+}
+
+.dropdownContent2 a:hover{
+		background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdownContent2{
+	display: block; 
+}
+
+#login{
+	height: 2.8em;
+	padding-left: 10px; 
+}
+
+#search{
+	vertical-align: middle; 
+		height: 2.3em; 
+		margin: 5px auto; 
+}
+
+#search1{
+	vertical-align: middle; 
+		height: 2.3em; 
+		margin: 5px auto; 
+		width: 50%; 
+}
+
+.link:hover, .dropdownBtn:hover{
+	background-color: #267300;
+}
+
+.dropdown:hover{
+	background-color: #267300;
+}
+
+
+
+.clear{
+	clear: both;
+}
+
+.mainContent{
+	width: 75%; 
+	margin: 60px auto;
+	background-color: #DFF8A9;
+	overflow: hidden; //this is a must
+}
+
+.content{
+	width: 78%; 
+	float: left;  
+	background-color: #DFF8A9; 
+	
+}
+
+.topContent{
+	padding: 3% 5%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	display: inline-block;
+	background-color: white; 
+	width: 88%; 
+}
+
+
+
+.itemImage img{
+	max-width: 225px;
+	padding-right: 3%;
+	float: left;
+	width:42%; 
+}
+
+.contentInfo header h1{
+	font-size: 2em; 
+	margin-bottom: 0.7em; 
+}
+
+.contentInfo header h1 a{
+	color: #267300;
+}
+
+
+.contentInfo header h1 a:hover{
+	color: #267300;
+	text-decoration: underline;
+}
+
+.contentInfo footer{
+	font-style: italic; 
+	color: #999;
+	font-size: 85%; 
+	margin-bottom: 0.5em;
+}
+
+.cost{
+	font-size: 1.5em; 
+}
+
+
+
+/*users Info styles*/
+.userInfo{
+	padding: 3% 5%;
+		margin-bottom: 2%;
+		margin-right: 2%;
+	display: inline-block;
+	background-color: white; 
+	width: 88%; 
+}
+
+
+.userImage img{
+	position: relative; 
+	height: auto;
+	max-height: 100px;
+	max-width: 100px;
+	padding-right: 3%;
+	float: left;
+	width:42%;
+	 
+}
+
+.userInfoDetails header h1{
+	font-size: 2em; 
+	margin-bottom: 0.3em; 
+}
+
+.userInfoDetails header h1 a{
+	color: #267300;
+}
+
+
+.userInfoDetails header h1 a:hover{
+	color: #267300;
+	text-decoration: underline;
+}
+
+.userInfoDetails footer{
+	font-style: italic; 
+	color: #999;
+	font-size: 85%; 
+	margin-bottom: 0.5em;
+}
+
+/*Rating*/
+.rating {
+    overflow: hidden;
+    display: inline-block;
+    font-size: 0;
+    position: relative;
+}
+.rating-input {
+    float: right;
+    width: 16px;
+    height: 16px;
+    padding: 0;
+    margin: 0 0 0 -16px;
+    opacity: 0;
+}
+.rating:hover .rating-star:hover,
+.rating:hover .rating-star:hover ~ .rating-star,
+.rating-input:checked ~ .rating-star {
+    background-position: 0 0;
+}
+.rating-star,
+.rating:hover .rating-star {
+    position: relative;
+    float: right;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url('http://kubyshkin.ru/samples/star-rating/star.png') 0 -16px;
+}
+/*end of rating*/
+
+
+
+
+/*buttons*/
+.button {
+   border: 0px solid #e67e22;
+   background: #e67e22;
+   background: -webkit-gradient(linear, left top, left bottom, from(#e67e22), to(#e67e22));
+   background: -webkit-linear-gradient(top, #e67e22, #e67e22);
+   background: -moz-linear-gradient(top, #e67e22, #e67e22);
+   background: -ms-linear-gradient(top, #e67e22, #e67e22);
+   background: -o-linear-gradient(top, #e67e22, #e67e22);
+   background-image: -ms-linear-gradient(top, #e67e22 0%, #e67e22 100%);
+   padding: 10px 20px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #e67e22 0 1px 0;
+   color: #ffffff;
+   font-size: 15px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   display: inline-block; 
+   }
+.button:hover {
+   border: 0px solid #267300;
+   text-shadow: #267300 0 1px 0;
+   background: #267300;
+   background: -webkit-gradient(linear, left top, left bottom, from(#267300), to(#267300));
+   background: -webkit-linear-gradient(top, #267300, #267300);
+   background: -moz-linear-gradient(top, #267300, #267300);
+   background: -ms-linear-gradient(top, #267300, #267300);
+   background: -o-linear-gradient(top, #267300, #267300);
+   background-image: -ms-linear-gradient(top, #267300 0%, #267300 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #153403 0 1px 0;
+   border: 0px solid #153403;
+   background: #153403;
+   background: -webkit-gradient(linear, left top, left bottom, from(#153403), to(#267300));
+   background: -webkit-linear-gradient(top, #153403, #153403);
+   background: -moz-linear-gradient(top, #153403, #153403);
+   background: -ms-linear-gradient(top, #153403, #153403);
+   background: -o-linear-gradient(top, #153403, #153403);
+   background-image: -ms-linear-gradient(top, #153403 0%, #153403 100%);
+   color: #fff;
+   }
+
+/*end of buttons*/
+
+
+
+
+.usersRequestsCount{
+	color: red;
+	font-size: 1em; 	
+}
+
+
+/*Comments*/
+.comments{
+	padding: 3% 5%;
+	margin-bottom: 2%;
+	margin-right: 2%;
+	background-color: white; 
+	width: 88%; 
+}
+.comments h1{
+	font-size: 2em; 
+	color: #267300;
+	padding-bottom: 10px; 
+	border-bottom: 3px; 
+	border-style: solid; 
+	margin-bottom: 30px; 
+}
+
+.commentBlock{
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px; 
+	border-style: groove;
+	display: inline-block;
+	width: 100%; 
+}
+
+
+
+.commentBlock p{
+	overflow: hidden; 
+}
+
+.commentorText h2{
+	font-size: 1.5em;
+	margin-bottom: 5px;
+	color: #267300;	
+}
+
+.commentorText footer{
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #999;
+	font-size: 85%;
+ 	
+}
+
+
+/*end of comment*/
+
+
+
+/*for User Control Panel*/
+.content1{
+	background-color:#e67e22;
+	width: 98%; 
+}
+
+.content1 h1{
+	color: white; 
+	font-size: 2em; 
+	padding: 10px; 
+	box-sizing: border-box; 
+	background-color: #153403;
+}
+.userFunctions{
+	width: 250px;
+	float: left; 
+	background-color: #e67e22; 
+	  
+}
+
+.functionContent{
+	box-sizing: border-box; 
+	background-color: white;
+	padding: 15px; 
+	margin-left: 250px; 
+	min-height: 410px;
+	
+}
+
+.dashboardUserImageDiv{ 
+	box-sizing: border-box;
+	width: 100%;  
+	padding: 10px;
+	color: white; 
+	display: inline-block; 
+	  border-bottom: 1px; 
+	border-style: groove;
+	background-color: #267300;
+}
+
+.dashboardUserImageDiv img{	
+	height: auto;
+	max-height: 200px;
+	max-width: 95px;
+	margin-bottom: 10px; 
+	float: left; 
+	padding-right: 5px; 
+}
+
+.dashboardUserImageDiv h1{
+	color: white;
+    font-size: 2em;
+	padding-bottom: 10px; 
+    box-sizing: border-box;
+    width: 98%; 
+	background-color: #267300;
+}
+
+.dashboardUserImageDiv p{
+	font-style: italic; 
+	color: white;
+    font-size: .9em;
+	padding-bottom: 10px; 
+    box-sizing: border-box;
+    width: 98%;
+}
+
+
+.userNav li{
+	list-style: none; 
+	border-bottom: 1px; 
+	border-style: groove;
+}
+
+.userNav li a{
+	 color: white;
+	 display: block; 
+	 padding: 12px; 
+	 
+}
+
+.userNav li:hover{
+	background-color: #267300;
+}
+
+
+.checkedPost{
+	background-color: #267300;
+	pointer-events: none;
+   cursor: default;
+}
+
+.checkedPostCanHover{
+	background-color: #267300;
+}
+
+.subPost{ 
+	padding-left: 25px;
+	background-color: #267300;
+}
+
+.subPost a{
+	background-color: #e67e22;
+}
+
+.subPost a:hover{
+	background-color: #153403;
+}
+.subPost:hover{ 
+	background-color: #e67e22;
+}
+
+.subPostSelected{
+	padding-left: 25px;
+	background-color: #267300;
+}
+.subPostSelected a{
+	background-color: #153403;
+}
+
+.breadcrumbs{
+	padding-bottom: 10px; 
+	border-bottom: 1px; 
+	border-style: groove;
+}
+
+.breadcrumbs h2{
+	font-size: 1.1em;
+	color: #153403;
+	font-weight: 900; 
+}
+
+.subtext{
+	font-weight: normal; 
+	font-size: 1em;
+}
+
+
+
+#hamburgerMenuLeft{
+		display: none; 
+}
+
+#hamburgerMenuLeft img{
+	height: 50px; 
+}
+
+/*end of user control panel*/
+
+/*login page*/
+.error1{
+	color: white; 
+	font-size: 1em; 
+	padding: 10px; 
+	margin: 10px; 
+	box-sizing: border-box; 
+	background-color: red;
+}
+
+.div_id_username{
+	font-size: 1.4em;
+	padding: 10px; 
+}
+
+.div_id_username label{
+	display: block; 
+	width: 100%;  
+}
+
+.div_id_username input{
+	display: block; 
+	width: 100%;  
+	height: 25px; 
+}
+
+.div_id_password{
+	font-size: 1.4em;
+	padding: 10px; 
+}
+
+.div_id_password label{
+	display: block; 
+	width: 100%;  
+}
+
+.div_id_password input{
+	display: block; 
+	width: 100%;  
+	height: 25px; 
+}
+
+.form-group{
+	padding: 10px; 
+}
+
+.form-group input{
+	display: block; 
+	width: 100%;  
+	height: 25px;
+	margin-bottom: 10px; 
+}
+
+.form-group button{
+	margin-bottom: 10px; 
+}
+
+.form-group img{
+	height: auto;
+	max-height: 200px;
+	max-width: 200px;
+	margin-bottom: 10px; 
+}
+
+.success h2{
+	font-size: 1.1em;
+	color: #153403;
+	font-weight: 900; 
+}
+.success p{
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+
+.table p{
+	font-size: 1.1em;
+	color: #153403;
+	font-weight: 900; 
+	padding-bottom: 5px;
+	border-bottom: 2px; 
+	border-style: groove;
+	border-bottom-color: gray;
+}
+
+.table .row{
+	color: black; 
+	display: block; 
+	padding: 10px; 
+	width: 100%; 
+	
+}
+
+.table .row:hover{ 
+	background-color: #DFF8A9; 
+}
+
+.table .row .postNameCol{
+	display: inline-block; 
+	width: 75%; 
+	text-align: left; 
+}
+.table .row .priceCol{
+	display: inline-block; 
+	width: 20%; 
+	text-align: right; 
+}
+
+.userTable{
+	display: block; 
+}
+
+.userTable p{
+	font-size: 1.1em;
+	color: #153403;
+	font-weight: 900; 
+	padding-bottom: 5px;
+	border-bottom: 2px; 
+	border-style: groove;
+	border-bottom-color: gray;
+}
+
+.userTable .row{
+	color: black; 
+	display: inline-block;
+	padding: 10px; 
+	width: 100%; 
+	
+}
+
+.userTable .row:hover{ 
+	background-color: #DFF8A9; 
+}
+
+.userTable .row .userImageCol{
+	display: inline-block; 
+	width: 50px; 
+	text-align: left; 
+	vertical-align: middle; 
+}
+
+.userImageCol img{
+	width: 50px; 
+}
+
+.userNameCol{
+	display: inline-block; 
+	height: 100%; 
+	text-align: left; 
+}
+
+.btnCol{
+	 float:right; 
+}
+
+.advertReview{
+	width: 100px; 
+}
+/*end of login page*/
+
+
+/*register page*/
+.register{
+	font-size: 1.4em;
+	background-color: white; 
+}
+
+.register p{
+	margin-bottom: 10px;
+	margin-top: 5px; 
+	padding: 10px;
+}
+
+.register label{
+	display: block; 
+	width: 100%;  
+}
+
+.register input{
+	display: block; 
+	width: 100%;  
+	height: 25px; 
+}
+
+textarea{
+	width: 100%; 
+	margin-bottom: 10px; 
+}
+/*end of register page*/
+
+
+.advert{ 
+	float: left;
+	width: 20%; 
+	height: auto;
+	background-color: blue; 
+	
+}
+
+.advert img{
+	width: 100%;
+}
+
+.requestitembtns{
+	clear: both; 
+	float: right; 
+}
+
+
+.mainFooter{
+	background-color: #153403;
+	height: 3em; 
+	width: 100%;
+	color: white; 
+	clear: both;   
+	text-align: center; 
+	padding-top: 0.5em;
+	position: fixed;
+	bottom: 0px; 
+}
+
+.copyright{
+	float: center; 
+}
+
+.socialMedia{
+	float: right;  
+}
+
+.clear{
+	clear: both; 
+}
+
+
+
+@media screen and (max-width: 730px){
+	.mainHeader{
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0; 
+	width: 100%; 
+	height: 3em;
+	z-index: 2000;  
+	display: block; 
+	}
+
+	#logo{
+		display: inline-block; 
+		width: 100%; 
+	}
+
+	.dropdownContent2{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px; 
+	max-height:150px;  
+    overflow-x:hidden; 
+    overflow-y:auto;
+}
+	#boldLogo{
+		font-weight: bolder; 
+	}
+
+	.mainHeader h1{
+			font-size: 2em;
+			
+	}
+
+	.mainHeader h1 a{
+		color: white; 
+		line-height: 1.5em; 
+		width: 100%; 
+	}
+	
+	
+	.mainHeader nav {  
+	display: inline-block;  
+	clear: both;
+	width: 100%; 
+		
+	}
+
+	.mainHeader nav ul{	 
+		list-style: none; 
+		height: 3em; 
+		margin: 0; 
+		
+	}
+
+	.mainHeader nav ul li{
+		float: none; 
+		display: block;
+		height: 3em;  
+		background-color: #e67e22;
+	}
+	.link{
+		background-color: #e67e22;
+	}
+	
+	#hamburgerMenu{
+		position: fixed;
+	top: 0;
+		 text-align: right; 
+		 display: inline; 
+	background-color: #e67e22;
+	right: 5px; 
+	}
+	#hamburgerMenu img{
+		 height: 43px;
+	}
+	
+	#hamburgerMenu img:hover{
+		 background-color: #e67e22;
+	}
+	#hamburgerMenu img:active{
+		 background-color: #e67e22;
+
+	}
+	
+	.mainHeader nav{
+		display: none; 
+	}
+	
+	
+	
+	div.nav-expanded{
+		display: block; 
+	}
+	
+	
+	#hamburgerMenuLeft img:hover{
+		 background-color: #e67e22;
+	}
+	#hamburgerMenuLeft img:active{
+		 background-color: #e67e22;
+
+	}
+	
+	#hamburgerMenuLeft{
+		display: block; 
+		float: left; 
+	}
+	.dropdownContent2{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px; 
+	max-height:150px;  
+    overflow-x:hidden; 
+    overflow-y:auto;
+}
+	.mainContent{
+	background-color:#e67e22;
+	width: 100%; 
+	}
+	
+	.userFunctions{
+		display: none; 
+	  width: 100%; 
+	}
+	
+	.functionContent{
+		margin-left: 0px; 
+	}
+	
+	.mainFooter{
+		text-align: center; 
+	}
+	
+	.socialMedia{
+	float: center;  
+}
+	
+}
